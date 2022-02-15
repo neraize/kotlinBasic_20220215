@@ -49,7 +49,22 @@ class MainActivity : AppCompatActivity() {
 /*            var myHeight:Double
             myHeight=180.7*/
             var myHeight =180.7
+        }
 
+
+        btnCondition.setOnClickListener {
+            //조건문 연습
+            val userAge=17
+
+            // 사용자의 나이가 20살 이상? 맞으면 성인 입니다. 토스트로 띄움
+            if (userAge>=20){
+                // 사용자 나이가 20살 이상일때만 실행할 내용
+                Toast.makeText(this, "성인입니다", Toast.LENGTH_SHORT).show()
+            }
+            else{
+                // 위의 질문이 틀렸을때만 실행할 내용
+                Toast.makeText(this, "미성년자 입니다.", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 }
