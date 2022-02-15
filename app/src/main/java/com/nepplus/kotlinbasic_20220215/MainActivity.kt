@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         btnLog.setOnClickListener {
 
-            Log.d("메인화면", "로그 버튼 눌림")
+            Log.d("메인화면", "로그 버튼 눌림 ")
         }
 
     }
