@@ -29,21 +29,26 @@ class MainActivity : AppCompatActivity() {
         btnVariable.setOnClickListener {
             //변수에 대한 문법 연습용 코드
             //본인의 이름을 변수에 담아보자. -> 토스트로 띄우자.
-            var myName :String
+/*            var myName :String
             myName="서정민"
-            myName="홍길동"
+            myName="홍길동"*/
+            var myName="서정민"
 
-            val friendName:String
-            friendName="이선생"
+/*            val friendName:String
+            friendName="이선생"*/
 //            friendName="김선생"
+            val friendName="이선생"
 
             Toast.makeText(this, friendName, Toast.LENGTH_SHORT).show()
 
-            var myBirthYear:Int
-            myBirthYear=1988
+/*            var myBirthYear:Int
+            myBirthYear=1988*/
+            var myBirthYear=1988
 
-            var myHeight:Double
-            myHeight=180.7
+
+/*            var myHeight:Double
+            myHeight=180.7*/
+            var myHeight =180.7
 
         }
     }
